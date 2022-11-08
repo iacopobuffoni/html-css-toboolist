@@ -18,3 +18,39 @@ body {
     margin-left: 20px;
     margin-top: 15px;
 }
+
+.contenitore-sopra {
+    background-color: white;
+    height: 50px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#blue {
+    background-color: #47adf1;
+    color: white;
+}
+
+.bottone {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+#bottone2 {
+    background-color: white;
+    color: #c6ccd1;
+}
+
+.contenitore-sotto {
+    background-color: white;
+    width: 1400px;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 2px;
+}
