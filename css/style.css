@@ -61,7 +61,6 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-top: 2px;
-<<<<<<< HEAD
     padding-left: 60px;
 }
 
@@ -179,12 +178,3 @@ li {
     border-radius: 50%;
     text-align: center;
 }
-
-=======
-}
-
-.centeralign {
-    width: 90%;
-    margin: auto;
-}
->>>>>>> 3dce05ccfa3d82cf301b8763605a8c8c7ba8e54e
