@@ -19,6 +19,12 @@ body {
     margin-top: 15px;
 }
 
+#title {
+    font-size: xx-large;
+    font-weight: 1000;
+    display: inline-block;
+}
+
 .contenitore-sopra {
     background-color: white;
     height: 50px;
@@ -27,6 +33,7 @@ body {
     margin-top: 40px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    padding-left: 60px;
 }
 
 #blue {
@@ -39,6 +46,7 @@ body {
     border-radius: 5px;
     border: 1px solid;
     margin-top: 10px;
+    width: 90px;
 }
 
 #bottone2 {
@@ -53,4 +61,121 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-top: 2px;
+    padding-left: 60px;
 }
+
+.lista {
+    padding-top: 20px;
+}
+
+#list-title::before {
+    content: '\1F893';
+}
+
+li {
+    padding-top: 10px;
+    font-size: medium;
+    list-style: none;
+    font-weight: 500;
+}
+
+#list-title {
+    font-size: large;
+    font-weight: 600;
+}
+
+.editorial::after {
+    content: 'Editorial';
+    border-radius: 10px;
+    background-color: #47adf1;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+}
+
+.q1goals::after {
+    content: 'Q1 Goals';
+    border-radius: 10px;
+    background-color: #9c72e4;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+
+}
+
+.recruiting::after {
+    content: 'Q1 Goals';
+    border-radius: 10px;
+    background-color: #64c0a9;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+}
+
+.mobile::after {
+    content: 'Mobile';
+    border-radius: 10px;
+    background-color: #f29e33;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+}
+
+.website::after {
+    content: 'Website';
+    border-radius: 10px;
+    background-color: #d863a1;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+}
+
+.sales::after {
+    content: 'Sales';
+    border-radius: 10px;
+    background-color: #b0c926;
+    color: white;
+    font-size: x-small;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+}
+
+.yes::before {
+    content: '\2713';
+    border: 1px solid green;
+    color: green;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.no:before {
+    content: '\00D7';
+    border: 1px solid red;
+    color: red;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+

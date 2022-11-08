@@ -14,7 +14,7 @@
     <header> <!-- Logo e titolo -->
         <div id="testata">
             <img src="img/Logo.png" alt=""> 
-            <span id="title"> Toboolist </span>
+            <div id="title"> Toboolist </div>
         </div>
     </header>
     <main> <!-- Parte principale -->
@@ -26,23 +26,30 @@
         </header>
         <section> <!-- Sezione con liste -->
             <div class="contenitore-sotto">
-                <ul> New Task <!-- Prima lista -->
-                    <li> Quarterly Newsletter </li>
-                </ul>
-                <ul> <!-- Seconda lista -->
-                    Today
-                    <li> Recruiting blog post </li>
-                    <li> Mobile app launch </li>
-                    <li> Interview John H. </li>
-                    <li> Summit update to mobile storefronts </li>
-                </ul>
-                <ul> <!-- Terza lista -->
-                    Upcoming
-                    <li> Schedule meeting with Alex </li>
-                    <li> Homepage refresh </li>
-                    <li> Onboard new Sales team member </li>
-                    <li> Review editorial calendar </li>
-                </ul>
+                <div class="lista">
+                    <ul> 
+                        <span id="list-title"> New Task </span> <!-- Prima lista -->
+                        <li class="editorial yes"> Quarterly Newsletter </li>
+                    </ul>
+                </div>
+                <div class="lista">
+                    <ul> <!-- Seconda lista -->
+                        <span id="list-title"> Today </span>
+                        <li class="editorial yes"> Recruiting blog post </li>
+                        <li class="q1goals yes"> Mobile app launch </li>
+                        <li class="recruiting no"> Interview John H. </li>
+                        <li class="mobile yes"> Summit update to mobile storefronts </li>
+                    </ul>
+                </div>
+                <div class="lista">
+                    <ul> <!-- Terza lista -->
+                        <span id="list-title"> Upcoming </span>
+                        <li class="no"> Schedule meeting with Alex </li>
+                        <li class="website yes"> Homepage refresh </li>
+                        <li class="sales yes"> Onboard new Sales team member </li>
+                        <li class="editorial yes"> Review editorial calendar </li>
+                    </ul>
+                </div>  
             </div>
         </section>
     </main>   
